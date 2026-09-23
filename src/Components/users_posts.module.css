@@ -1,0 +1,55 @@
+.users_posts_main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    overflow-y: scroll;
+    scrollbar-width: 2px;
+
+    background: transparent;
+}
+
+
+.storys_sect {
+    width: 80%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: auto ;
+    background: rgb(5, 11, 17);
+    border: none;
+    z-index: 15;
+}
+
+.posts_sect{
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    background: rgb(5, 11, 17);
+
+    position: absolute;
+    top: 20vh;
+    display: flex;
+}
+.posts_sect > ol {
+    width: 100%;
+    height: 100%;
+    /* background: blue; */
+
+    top: 20vh;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
