@@ -4,9 +4,7 @@ import styles from "./Posts_comp.module.css";
 const futureAlert =   "! This feature explore in future. Thank you for visiting 'Instagram Clone Application.' !"
 
 export default function Post_bottom_comp() {
-  // heart  <i class="fa-regular fa-heart" style="color: rgb(255, 255, 255);"></i>
-  // comment <i class="fa-regular fa-comment" style="color: rgb(255, 255, 255);"></i>
-  // share  <i className="fa-brands fa-airbnb icons fa-lg" style={{color: "rgb(255, 255, 255)"}}></i>
+  
   const [likedColor, setLikedColor] = useState(false);
   const handleFutureUpdates = () => {
     alert(futureAlert);
