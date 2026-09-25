@@ -5,7 +5,6 @@ export default function MMC_acc_c() {
   const [userDetails, setUserDetails] = useState(
     JSON.parse(localStorage.getItem("userDetails")),
   );
-  console.log(userDetails);
 
   return (
     <>
