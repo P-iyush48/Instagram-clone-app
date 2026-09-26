@@ -1,8 +1,10 @@
-import PopUp_msg_comp from "./PopUp_msg_comp";
-import Users_posts_comp from "./Users_posts_comp";
-import Navbar from "./Vert_Navbar_comp";
+import { lazy, Suspense } from "react";
 
-export default function Home_comp() {
+import Users_posts_comp from "./Users_posts_comp";
+
+const PopUp_msg_comp = lazy(()=>import('./PopUp_msg_comp'))
+
+export default function Home_comp({Navbar}) {
 
     return<div className="Home_comp">
 
@@ -13,7 +15,11 @@ export default function Home_comp() {
         <Users_posts_comp />
 
         {/* chat pop-up */}
-        <PopUp_msg_comp />
+        {
+            <Suspense fallback={<h5 style={{color:"white",opacity:"0.85"}}>Component Loading...</h5>}>
+                <PopUp_msg_comp />
+            </Suspense>
+        }
     
     </div>
 }

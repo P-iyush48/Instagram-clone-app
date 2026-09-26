@@ -31,7 +31,7 @@ export default function Login_form() {
             await new Promise(res => setTimeout(res,2500));
         })
 
-        navigate('/h');
+        navigate('/h-p');
 
     }
     
