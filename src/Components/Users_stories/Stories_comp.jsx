@@ -29,7 +29,7 @@ function Stories_comp() {
             alt=""
           />
         </span>
-        <p>muckhi_kali_02</p>
+        <p>challu_pari_02</p>
       </div>
       <div className={styles.seprate_story}>
         <span className={styles.story}>

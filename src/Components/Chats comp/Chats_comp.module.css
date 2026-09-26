@@ -1,0 +1,209 @@
+.chats_comp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.cc_navbar {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  border-right: 1.5px solid rgba(128, 128, 128, 0.267);
+}
+.chat_section {
+  width: 92%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.cs_left {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-right: 1.5px solid rgba(128, 128, 128, 0.267);
+}
+.cs_l_head {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.csl_h_top,
+.csl_h_bottom {
+  width: 100%;
+  height: 50%;
+}
+.csl_h_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px 30px;
+}
+.csl_h_username{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+}
+#pen_square{
+    width: 10%;
+    text-align: right;
+    font-weight: 350;
+    font-size: 30px;
+}
+.csl_h_bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.csl_h_bottom > span {
+    width: 100%;
+    height: 70%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    gap: 20px;
+    padding: 0px 15px;
+    background: rgba(128, 128, 128, 0.505);
+}
+.csl_h_bottom > span > i{
+    color: white;
+}
+.csl_h_bottom > span > i:hover{
+    color: rgba(255, 255, 255, 0.56);
+    text-shadow: 2px 2px 20px rgb(251, 251, 251);
+}
+.csl_h_bottom > span > input{
+    font-size: 18px;
+    width: 100%;
+    height: 80%;
+    color: white;
+    outline: none;
+    border: none;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    background: transparent;
+    box-shadow: none;
+}
+.csl_h_bottom > span > input::placeholder{
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.cs_l_circle_imgs {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 8px;
+  overflow-x: scroll;
+  
+}
+.cs_l_circle_imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.cs_l_msg_section {
+  width: 100%;
+  height: 70%;
+  /* overflow-y: scroll; */
+  padding: 2% 20%;
+  position: relative;
+}
+.cs_l_msg_section::-webkit-scrollbar {
+    display: none;
+}
+
+
+.cs_right {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.cs_r_top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.267);
+}
+.cs_r_top > i {
+  width: fit-content;
+  margin-right: 20px;
+  color: white;
+}
+.cs_r_bottom {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.big_circle{
+    width: 120px;
+    height: 120px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big_circle > i{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    transform: rotate(60deg);
+}
+.your_msg_text{
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.send_msg_p{
+    color: gray;
+    letter-spacing: 0.5px ;
+}
+.send_msg_btn{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 450;
+    font-family: monospace;
+    background: rgb(53, 101, 213);
+}

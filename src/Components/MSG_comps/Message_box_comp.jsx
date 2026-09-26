@@ -95,6 +95,7 @@ export default function Messages_box_comp({ setLoad }) {
             })}
           </ul>
         </div>
+        
       </span>
     </>
   );

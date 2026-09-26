@@ -11,6 +11,7 @@ import Login_page from "./LoginPage/Login_page";
 import Home_comp from "./Components/Home_comp";
 import Navbar from "./Components/Vert_Navbar_comp";
 import Reels_Comp from "./Components/Reels Page comp's/Reels_Comp";
+import Chats_comp from "./Components/Chats comp/Chats_comp";
 
 export default function App() {
   return (
@@ -21,7 +22,7 @@ export default function App() {
             <Route index element={<Login_page />} />
             <Route path="h-p" element={<Home_comp Navbar={Navbar} />} />
             <Route path="h/reels" element={<Reels_Comp Navbar={Navbar} />} />
-            <Route path="h/chats-p" element={<Future_update_msg />} />
+            <Route path="h/chats-p" element={<Chats_comp Navbar={Navbar} />} />
             <Route path="h/search" element={<Future_update_msg />} />
           </Route>
 
@@ -31,6 +32,7 @@ export default function App() {
     </>
   );
 }
+
 
 function Future_update_msg() {
   const navigate = useNavigate();
