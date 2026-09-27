@@ -3,7 +3,7 @@ import styles from "../popup_msg.module.css";
 
 export default function MMC_acc_c() {
   const [userDetails, setUserDetails] = useState(
-    JSON.parse(localStorage.getItem("userDetails")),
+    JSON.parse(localStorage.getItem("new_userDetails")),
   );
 
   return (

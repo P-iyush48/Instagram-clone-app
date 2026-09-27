@@ -5,7 +5,7 @@ import Stories from "../Users_stories/Stories_comp";
 import Messages_box_comp from "../MSG_comps/Message_box_comp";
 
 export default function Chats_comp({ Navbar }) {
-  const userDetails = JSON.parse(localStorage.getItem("userDetails"));
+  const userDetails = JSON.parse(localStorage.getItem("new_userDetails"));
 
   return (
     <div className={styles.chats_comp}>

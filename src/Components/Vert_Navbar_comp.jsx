@@ -21,7 +21,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/h/reels"}>
+          <NavLink to={"/h/reels-p"}>
             <i
               className="fa-brands fa-youtube-shorts icons fa-lg"
               style={{ color: "rgb(255, 255, 255)" }}
@@ -37,7 +37,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/h/search"}>
+          <NavLink to={"/h/search-p"}>
             <i
               className="fa-solid fa-magnifying-glass icons fa-lg"
               style={{ color: "rgb(255, 255, 255)" }}
@@ -45,7 +45,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/h/likes"}>
+          <NavLink to={"/h/likes-p"}>
             <i
               className="fa-regular fa-heart icons fa-lg"
               style={{ color: "rgb(255, 255, 255)" }}
@@ -53,7 +53,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/h/add"}>
+          <NavLink to={"/h/plus-p"}>
             <i
               className="fa-solid fa-plus icons fa-lg"
               style={{ color: "rgb(255, 255, 255)" }}

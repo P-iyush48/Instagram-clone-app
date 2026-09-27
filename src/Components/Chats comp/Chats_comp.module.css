@@ -62,11 +62,15 @@
     font-weight: 450;
     letter-spacing: 0.5px;
 }
+.csl_h_username > i {
+    cursor: pointer;
+}
 #pen_square{
     width: 10%;
     text-align: right;
     font-weight: 350;
     font-size: 30px;
+    cursor: pointer;
 }
 .csl_h_bottom {
     width: 100%;
@@ -161,6 +165,7 @@
   width: fit-content;
   margin-right: 20px;
   color: white;
+  cursor: pointer;
 }
 .cs_r_bottom {
   width: 100%;
